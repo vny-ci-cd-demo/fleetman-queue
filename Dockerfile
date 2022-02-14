@@ -4,8 +4,4 @@ USER root
 
 MAINTAINER Richard Chesterwood "richard@inceptiontraining.co.uk"
 
-COPY /tmp/activemq.tar.gz activemq.tar.gz
-
-RUN tar -xzf activemq.tar.gz
-
 CMD ["apache-activemq-5.14.3/bin/activemq", "console"]
