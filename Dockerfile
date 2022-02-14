@@ -4,7 +4,7 @@ USER root
 
 MAINTAINER Richard Chesterwood "richard@inceptiontraining.co.uk"
 
-COPY $WORKSPACE/fleetman_fleetman-queue_master/activemq.tar.gz activemq.tar.gz
+COPY /tmp/activemq.tar.gz activemq.tar.gz
 
 RUN tar -xzf activemq.tar.gz
 
